@@ -20,8 +20,8 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/Roman-oryol/time-tracking-dashboard](https://github.com/Roman-oryol/time-tracking-dashboard)
+- Live Site URL: [https://ro-time-tracking-dashboard.netlify.app/](https://ro-time-tracking-dashboard.netlify.app/)
 
 ## My process
 
