@@ -44,6 +44,11 @@
   @media (min-width: 588px) {
     padding: 30px 30px 32px;
   }
+
+  &:hover {
+    background-color: #33397a;
+    cursor: pointer;
+  }
 }
 
 .time-card__header {
