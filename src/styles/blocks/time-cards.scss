@@ -1,0 +1,15 @@
+.time-cards {
+  display: grid;
+  gap: 24px;
+
+  @media (min-width: 588px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 244px;
+    gap: 30px;
+  }
+
+  @media (min-width: 873px) {
+    grid-template-columns: repeat(3, 255px);
+    width: 825px;
+  }
+}

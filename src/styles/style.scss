@@ -1,0 +1,22 @@
+@use './common/resets' as *;
+@use './common/fonts' as *;
+@use './common/variables' as *;
+@use './common/helpers' as *;
+@use './blocks/time-tracking-dashboard' as *;
+@use './blocks/report-summary' as *;
+@use './blocks/time-cards.scss' as *;
+@use './blocks/time-card.scss' as *;
+@use './blocks/skeleton.scss' as *;
+
+body {
+  min-width: 280px;
+  font-family: var(--font-family-primary);
+  color: #ffffff;
+  background-color: #0e1323;
+
+  @media (min-width: 1158px) {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}

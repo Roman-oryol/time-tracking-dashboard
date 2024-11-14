@@ -1,0 +1,11 @@
+.time-tracking-dashboard {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @media (min-width: 1158px) {
+    display: grid;
+    grid-template-columns: 255px 1fr;
+    gap: 30px;
+    padding: 0;
+  }
+}

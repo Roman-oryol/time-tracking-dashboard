@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="src/assets/fonts/Rubik-Light.woff2"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      href="src/assets/fonts/Rubik-Medium.woff2"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      href="src/assets/fonts/Rubik-Regular.woff2"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="src/styles/style.scss" />
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <h1 class="visually-hidden">Time tracking dashboard</h1>
+    <main class="time-tracking-dashboard container">
+      <header class="report-summary">
+        <div class="report-summary__for">
+          <img
+            src="/images/image-jeremy.png"
+            width="64"
+            height="64"
+            alt="Avatar of the user who owns the report."
+          />
+          <div class="report-summary__for-info">
+            <h2>Report for</h2>
+            <p class="report-summary__for-user">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="time-period-switcher">
+          <button class="time-period-switcher__button" type="button">
+            Daily
+          </button>
+          <button
+            class="time-period-switcher__button time-period-switcher__button--active"
+            type="button"
+          >
+            Weekly
+          </button>
+          <button class="time-period-switcher__button" type="button">
+            Monthly
+          </button>
+        </div>
+      </header>
+
+      <section class="time-cards" id="timeCards"></section>
+    </main>
+    <script type="module" src="/src/script/main.js"></script>
+  </body>
+</html>
