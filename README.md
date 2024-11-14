@@ -16,8 +16,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ### Screenshot
 
-![](./screenshot-desktop.jpg)
-![](./screenshot-mobile.jpg)
+![](./screenshot.jpg)
 
 ### Links
 
