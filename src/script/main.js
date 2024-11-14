@@ -10,7 +10,7 @@ const onSuccess = (cardsData) => {
   attachPeriodSwitcherHandlers(cardsData);
 };
 
-fetch('/src/data.json')
+fetch('/data.json')
   .then((response) => {
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`);
