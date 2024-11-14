@@ -7,7 +7,7 @@ const generateTimeCardHTML = ({ title, timeframes: { weekly } }) => {
           <div class="time-card__body">
             <header class="time-card__header">
               <h3>${title}</h3>
-              <button class="time-card__actions" type="button"></button>
+              <button class="time-card__actions" type="button"><span class="visually-hidden">Options</span></button>
             </header>
             <div class="time-card__content">
               <p class="time-card__current-time"><span>${
